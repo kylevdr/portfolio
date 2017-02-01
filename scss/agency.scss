@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "styles.scss";
 
 // Global Components
 
@@ -114,8 +115,7 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: 400;
                 letter-spacing: 1px;
                 color: white;
-                &:hover,
-                &:focus {
+                &:hover {
                     color: $theme-primary;
                     outline: none;
                 }
